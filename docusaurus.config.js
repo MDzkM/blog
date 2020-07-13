@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: 'About',
-              href: 'https://mdzkm.wtf/about',
+              href: 'https://mdzkm.wtf',
               target: '_self',
             },
             {
@@ -79,12 +79,12 @@ module.exports = {
               href: 'https://linkedin.com/in/mdzkm/',
             },
             {
-              label: 'Instagram',
-              href: 'https://instagram.com/mdzkm',
-            },
-            {
               label: 'Twitter',
               href: 'https://twitter.com/mdzkm',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://instagram.com/mdzkm',
             },
           ],
         },
