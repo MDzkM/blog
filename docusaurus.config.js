@@ -99,8 +99,9 @@ module.exports = {
         blog: {
           path: './blog',
           routeBasePath: '/', // Set this value to '/'.
-          editUrl:
-            'https://github.com/mdzkm/resources/edit/master/blog/',
+          // Please change this to your repo.
+          // editUrl:
+          //   'https://github.com/mdzkm/resources/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
