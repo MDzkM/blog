@@ -2,7 +2,7 @@
 id: software-project-review
 title: Software Project Review
 author: Muhammad Dzikra Muzaki
-author_title: Undergraduate Student @ Universitas Indonesia
+author_title: Head of Design @ Webmakers ID
 author_url: https://github.com/mdzkm
 author_image_url: https://avatars0.githubusercontent.com/u/43721937
 tags: [ppl, software, projects, pilar, industry, bisago, tbcare]
