@@ -13,7 +13,7 @@ A review of three projects I'm going to be working on.
 
 <!--truncate-->
 
-This year I'm taking the software project course and there are three different products available for development which are Pilar Home Industry, TBCare, and bisaGo. I am going to briefly explain them below.
+**This year I'm taking the software project course and there are three different products available for development which are Pilar Home Industry, TBCare, and bisaGo. I am going to briefly explain them below.**
 
 ### 1. Pilar Home Industry
 
@@ -55,4 +55,4 @@ Taking a look at the codebase, there are three version of the app distributed on
 
 It is certainly a useful app to minimize the work needed to gather and manage data and I would love to see more improvements to its features in the future.
 
-Overall I think all the products that are showed in the course I'm taking are all interesting and would be a huge benefit for society. And then this would be the abrupt end of my short review of those three projects. I hope this short overview gave a bit of insight and inspiration for other developers and/or other people that might read this post.
+**Overall I think all the products that are showed in the course I'm taking are all interesting and would be a huge benefit for society. And then this would be the abrupt end of my short review of those three projects. I hope this short overview gave a bit of insight and inspiration for other developers and/or other people that might read this post.**
