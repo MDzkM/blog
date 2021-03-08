@@ -47,7 +47,7 @@ My thoughts on this project are firstly it is an incredible step forward for acc
 
 ![TBCare Banner](https://i.ibb.co/z4P21bM/TBCare.png)
 
-The last one for today is TBCare. To simply put it, TBCare is an app that has the purpose to aid organizations to investigate areas that are potentially susceptible to tuberculosis. For the time being this application is used by Perkumpulan Pemberantas Tuberkolosis Indonesia (PPTI) that has Depok as the location of interest. This app provides features to streamline the process of gathering and managing data of the infected people or potentially infected so it would be more efficient and reliable.
+The last one for today is TBCare. To put it simply, TBCare is an app that has the purpose to aid organizations to investigate areas that are potentially susceptible to tuberculosis. For the time being this application is used by Perkumpulan Pemberantas Tuberkolosis Indonesia (PPTI) that has Depok as the location of interest. This app provides features to streamline the process of gathering and managing data of the infected people or potentially infected so it would be more efficient and reliable.
 
 There is not much to say about this one since it's mainly centered around administrative purposes, so the features are more or less a form that would be sent to the servers to be stored in a database.
 
