@@ -13,7 +13,7 @@ A review of three projects I'm going to be working on.
 
 <!--truncate-->
 
-**This year I'm taking the software project course and there are three different products available for development which are Pilar Home Industry, TBCare, and bisaGo. I am going to briefly explain them below.**
+This year I'm taking the software project course and there are three different products available for development which are Pilar Home Industry, TBCare, and bisaGo. I am going to briefly explain them below.
 
 ### 1. Pilar Home Industry
 
@@ -54,5 +54,7 @@ There is not much to say about this one since it's mainly centered around admini
 Taking a look at the codebase, there are three version of the app distributed on different platforms. The first one is the general user purposed mobile app, the second one is the web based version for admins to manage the data, and the last is the backend. There is nothing new here from the previous projects explained above, it uses NGINX as a proxy gate and the same technology stack (flutter for mobile, react for webpage, and django for backend). The CI/CD for this app is also already available for the admin page and backend, what's left is the mobile version that still needs to be deployed manually. However, the interesting thing to mention is that this project will be migrated from the heroku servers it once used to the Computer Science of Universitas Indonesia server which has its own private gitlab runner.
 
 It is certainly a useful app to minimize the work needed to gather and manage data and I would love to see more improvements to its features in the future.
+
+---
 
 **Overall I think all the products that are showed in the course I'm taking are all interesting and would be a huge benefit for society. And then this would be the abrupt end of this review. I hope this short overview gave a bit of insight and inspiration for other developers and/or other people that might read this post.**
