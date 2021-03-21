@@ -29,7 +29,7 @@ To better quote from an official [source](https://docs.docker.com/get-started/ov
 
 > ## Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications.
 >
-> ###  _Official Docker Documentation_
+> ### - _Official Docker Documentation_
 
 So from there we can conclude that Docker's purpose is to create a cleaner and more seamless development environment. We will touch on more about that at the end of this article.
 
