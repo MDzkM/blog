@@ -37,7 +37,7 @@ After entering the server, we need to pull the repository and checkout the branc
 
 Once the project is built and ready to serve, the last configuration we need to make is for NGINX. The first post I did on this project already explained the usage of NGINX so I won't go into detail here, but to let NGINX acknowledge the project as a runnning service to be served we need to make a configuration which points to the root of the project. This part of the deployment needs root access that the default user of the server already has since it belongs to the sudo group.
 
-![NGINX configuration file and ]()
+![NGINX configuration file and user groups]()
 
 The only thing left to do after that is starting the service through `systemctl` and we're good to go.
 
