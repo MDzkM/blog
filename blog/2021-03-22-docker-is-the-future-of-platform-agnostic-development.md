@@ -88,6 +88,16 @@ When we open `localhost:9000` in our browser we are greeted with the form for th
 
 ![Pilar Admin Web Page](https://i.ibb.co/hF56zNS/Pilar-Admin-Page.png)
 
+If you have finished the development session and want to stop the running container you can use,
+
+```docker ps```
+
+to view a list of running images and note the name of the container that you want to stop. After that you can just stop it using the command,
+
+```docker stop container-name```
+
+Or if you are using Windows and have the Docker Desktop installed you can just press the stop button in the images list. It's as easy and straightforward as that.
+
 To close this article, I'm just gonna summarize and conclude based on the experience that I've just walked you through. I used Docker as workaround to the dependecy problem I was having on Windows and it turns out I achieved more than what I needed it to do. By using Docker, it negates the platform specific errors and acts accordingly to the defined environment on whichever platform we decide to run the Docker from. I think this is truly incredible since we can make the codebase more accessible. And we haven't even gotten to the part where Docker can also run scripts to configure other components that will tie in to the CI/CD of the project. However, I'm gonna go into details on that in another post.
 
 My conclusion is, the existence of Docker can become the alternative to serve a project locally during development or even in production builds. The versatility of Docker will come in handy as an option readily available. I guess that's enough for this post, thank you for all the readers and I hope this article might help as a source of knowledge or reference to the viewers.
