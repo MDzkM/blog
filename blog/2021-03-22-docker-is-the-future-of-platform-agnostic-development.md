@@ -37,7 +37,7 @@ So from there we can conclude that Docker's purpose is to create a cleaner and m
 
 Continuing where we left off, I thought **'Why stop there?'** and immediately after I went on to dockerize the frontend side of the project. The process was fairly simple and much less complex than the backend since the frontend only consists of React and static pages that don't need a database whatsoever. These are the steps I took when creating the Docker image:
 
-I first created a file named `Dockerfile` which will contain the initial commands and setup the image needs to prepare. The following code is what I used in my `Dockerfile` (or as you can see on my commit [here](https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/sosial/pilar/pilar-backend/-/commit/4dd5ccc0fe42e533d74ccf654efbeeaf912e57a8)),
+I first created a file named `Dockerfile` which will contain the initial commands and setup the image needs to prepare. The following code is what I used in my `Dockerfile` (or as you can see on my commit [here](https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/sosial/pilar/pilar-web/-/commit/4dd5ccc0fe42e533d74ccf654efbeeaf912e57a8)),
 
 ```docker
 FROM node:15.11.0
@@ -54,7 +54,7 @@ To briefly explain the code above:
 - `RUN` will execute the arguments given to it in which we told it to install the dependencies and additional packages needed to build the project.
 - and last but not least `CMD`, which is similar to `RUN` but instead is executed last as a means to start the project within the container.
 
-However, the `Dockerfile` is not enough to setup the image we are building. So, we're gonna need another file named `docker-compose.yml` where it will store the configuration of the image itself. This is the code I implemented on said file (which can also be found [here](https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/sosial/pilar/pilar-backend/-/commit/4dd5ccc0fe42e533d74ccf654efbeeaf912e57a8)),
+However, the `Dockerfile` is not enough to setup the image we are building. So, we're gonna need another file named `docker-compose.yml` where it will store the configuration of the image itself. This is the code I implemented on said file (which can also be found [here](https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/sosial/pilar/pilar-web/-/commit/4dd5ccc0fe42e533d74ccf654efbeeaf912e57a8)),
 
 ```docker
 version: '3.9'
