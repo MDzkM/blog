@@ -10,12 +10,12 @@ module.exports = {
     navbar: {
       title: 'mdzkm.',
       logo: {
-        href: 'https://mdzkm.wtf',
+        href: 'https://mdzkm.netlify.app/',
         target: '_self'
       },
       links: [
         {
-          href: 'https://resources.mdzkm.wtf',
+          href: 'https://resources-mdzkm.netlify.app/',
           label: 'Tutorials and Archives',
           position: 'right',
           target: '_self',
@@ -39,17 +39,17 @@ module.exports = {
           items: [
             {
               label: 'About',
-              href: 'https://mdzkm.wtf',
+              href: 'https://mdzkm.netlify.app/',
               target: '_self',
             },
             {
               label: 'Projects',
-              href: 'https://mdzkm.wtf/projects',
+              href: 'https://mdzkm.netlify.app/projects',
               target: '_self',
             },
             {
               label: 'Tutorials and Archives',
-              to: 'https://resources.mdzkm.wtf',
+              to: 'https://resources-mdzkm.netlify.app/',
               target: '_self',
             },
             {
